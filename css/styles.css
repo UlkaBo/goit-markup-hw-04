@@ -121,10 +121,6 @@ header {
   margin-left: 10px;
 }
 
-.email-icon {
-  width: 20px;
-  height: 16px;
-}
 /* ----end header---- */
 
 /*------hero----------*/
@@ -479,6 +475,10 @@ img {
 .grid-flex {
   display: flex;
   flex-wrap: wrap;
+}
+.our-works-card-link {
+  text-decoration: none;
+  color: inherit;
 }
 .our-works-card:hover,
 .our-works-card:focus {
