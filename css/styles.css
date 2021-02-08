@@ -77,16 +77,24 @@ header {
 .horizontal-flex.header-address {
   margin-left: auto;
 }
-.site-nav .link,
-.header-address .link {
+.site-nav .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
 }
-.link:visited {
-  color: var(--adress-footer-color);
+.site-nav-link,
+.site-nav-link:visited {
+  color: var(--title-text-color);
+}
+
+.email-telephone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: inherit;
 }
 .link:hover,
 .link:focus,
@@ -96,9 +104,12 @@ header {
 .email-telephone-link {
   display: inline-flex;
   align-items: center;
+  color: var(--primary-text-color);
+  fill: var(--primary-text -color);
 }
 .email-telephone-link:focus,
 .email-telephone-link:hover {
+  color: var(--accent-color);
   fill: var(--accent-color);
 }
 
@@ -108,6 +119,11 @@ header {
 
 .email-telephone {
   margin-left: 10px;
+}
+
+.email-icon {
+  width: 20px;
+  height: 16px;
 }
 /* ----end header---- */
 
