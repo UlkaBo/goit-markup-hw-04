@@ -101,6 +101,7 @@ header {
 .site-nav .link.current {
   color: var(--accent-color);
 }
+
 .email-telephone-link {
   display: inline-flex;
   align-items: center;
@@ -477,17 +478,20 @@ img {
   flex-wrap: wrap;
 }
 .our-works-card-link {
+  display: block;
   text-decoration: none;
   color: inherit;
 }
-.our-works-card:hover,
-.our-works-card:focus {
+
+.our-works-card-link:hover,
+.our-works-card-link:focus {
   background: var(--primary-bg-color);
 
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 .card-box-description {
   padding-top: 20px;
   padding-bottom: 20px;
